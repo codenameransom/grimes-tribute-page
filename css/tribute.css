@@ -1,0 +1,75 @@
+a:link {
+  color: purple;
+}
+a:hover {
+  color:#DC143C;
+}
+#tribute-info{
+  font-family: monospace;
+}
+#img-caption{
+  text-decoration: underline;
+}
+#audiotext{
+  font-size:10px;
+  font-family: monospace;
+  color: pink;
+}
+body{
+  background-color: black;
+  color: #d3d3d3;/* this is light grey */
+  text-align: center;
+}
+#title{
+  display: inline-flex;
+  padding:5px;
+  display: block
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+#title-cap{
+  font-size: 20px;
+  font-family:sans-serif;
+  font-weight: 100;
+  text-decoration: underline;
+}
+#title-lyrics{
+  color: pink;
+  text-decoration: underline;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
